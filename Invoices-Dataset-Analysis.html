@@ -7544,7 +7544,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -7596,10 +7596,10 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">load_data</span><span class="p">(</span><span class="n">file_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">load_data</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Function to load CSV data from a given file path safely.</span>
 
@@ -7646,10 +7646,10 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">name_treatment</span><span class="p">(</span><span class="n">dataset</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">options</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"first"</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">name_treatment</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">options</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"first"</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Function to treat first_name and last_name columns in a dataset.</span>
 
@@ -7727,10 +7727,10 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">parse_dates</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span><span class="n">date_column</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">date_format</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s2">"</span><span class="si">%d</span><span class="s2">/%m/%Y"</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">parse_dates</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">date_column</span><span class="p">,</span> <span class="n">date_format</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s2">"</span><span class="si">%d</span><span class="s2">/%m/%Y"</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Converts "invoice_date" column from string to datetime.</span>
 <span class="sd">    Extracts year, month, day, and day of week features.</span>
@@ -7786,10 +7786,10 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">convert_string_columns</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">convert_string_columns</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    String manipulation: Strip whitespace from object columns</span>
 
@@ -7826,10 +7826,10 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">preprocess_data</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span><span class="n">date_column</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span><span class="n">date_format</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s2">"</span><span class="si">%d</span><span class="s2">/%m/%Y"</span><span class="p">,</span> <span class="n">name_options</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"first"</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">preprocess_data</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">date_column</span><span class="p">,</span><span class="n">date_format</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s2">"</span><span class="si">%d</span><span class="s2">/%m/%Y"</span><span class="p">,</span> <span class="n">name_options</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"first"</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Function to preprocess the initial loaded dataset:</span>
 <span class="sd">    - Strips whitespaces from strings using the convert_string_columns function. </span>
@@ -7878,10 +7878,10 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">explore_data</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">explore_data</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Prints key exploratory information: </span>
 <span class="sd">    - dataset shape (rows, columns)</span>
@@ -7934,7 +7934,7 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">load_data</span><span class="p">(</span><span class="s1">'invoices.csv'</span><span class="p">)</span>
@@ -7951,12 +7951,12 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Error loading data: [Errno 2] No such file or directory: 'invoices.csv'
+<pre>Data loaded successfully.
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7976,11 +7976,177 @@ Carmen Nixon | Todd Anderson</p>
 <thead>
 <tr style="text-align: right;">
 <th></th>
+<th>first_name</th>
+<th>last_name</th>
+<th>email</th>
+<th>product_id</th>
+<th>qty</th>
+<th>amount</th>
+<th>invoice_date</th>
+<th>address</th>
+<th>city</th>
+<th>stock_code</th>
+<th>job</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<th>0</th>
+<td>Carmen Nixon</td>
+<td>Todd Anderson</td>
+<td>marvinjackson@example.com</td>
+<td>133</td>
+<td>9</td>
+<td>14.57</td>
+<td>10/09/1982</td>
+<td>283 Wendy Common</td>
+<td>West Alexander</td>
+<td>36239634</td>
+<td>Logistics and distribution manager</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Mrs. Heather Miller</td>
+<td>Julia Moore</td>
+<td>jeffrey84@example.net</td>
+<td>155</td>
+<td>5</td>
+<td>65.48</td>
+<td>03/10/2012</td>
+<td>13567 Patricia Circles Apt. 751</td>
+<td>Andreamouth</td>
+<td>2820163</td>
+<td>Osteopath</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Crystal May</td>
+<td>Philip Moody</td>
+<td>ugoodman@example.com</td>
+<td>151</td>
+<td>9</td>
+<td>24.66</td>
+<td>23/03/1976</td>
+<td>6389 Debbie Island Suite 470</td>
+<td>Coxbury</td>
+<td>27006726</td>
+<td>Economist</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Bobby Weber</td>
+<td>Mark Scott</td>
+<td>ssanchez@example.com</td>
+<td>143</td>
+<td>4</td>
+<td>21.34</td>
+<td>17/08/1986</td>
+<td>6362 Ashley Plaza Apt. 994</td>
+<td>Ninaland</td>
+<td>83036521</td>
+<td>Sports administrator</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Kristen Welch</td>
+<td>David David</td>
+<td>cynthia66@example.net</td>
+<td>168</td>
+<td>2</td>
+<td>83.90</td>
+<td>11/06/1996</td>
+<td>463 Steven Cliffs Suite 757</td>
+<td>Isaiahview</td>
+<td>80142652</td>
+<td>Chief Marketing Officer</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>9995</th>
+<td>Daniel Chapman</td>
+<td>Ralph Price</td>
+<td>davidrice@example.com</td>
+<td>133</td>
+<td>1</td>
+<td>39.82</td>
+<td>14/05/2004</td>
+<td>8220 Stewart Isle Apt. 382</td>
+<td>New Willieberg</td>
+<td>53513212</td>
+<td>Surveyor, insurance</td>
+</tr>
+<tr>
+<th>9996</th>
+<td>Jonathan Cabrera</td>
+<td>John Baldwin</td>
+<td>jennifer66@example.com</td>
+<td>133</td>
+<td>1</td>
+<td>21.94</td>
+<td>07/10/1994</td>
+<td>48045 Harris Mountain Apt. 857</td>
+<td>Jameston</td>
+<td>61754737</td>
+<td>Writer</td>
+</tr>
+<tr>
+<th>9997</th>
+<td>David Thomas</td>
+<td>Brandy Bishop</td>
+<td>moraleskimberly@example.org</td>
+<td>173</td>
+<td>2</td>
+<td>62.05</td>
+<td>27/06/2010</td>
+<td>872 Tonya Drive</td>
+<td>West Eric</td>
+<td>17037907</td>
+<td>Surveyor, quantity</td>
+</tr>
+<tr>
+<th>9998</th>
+<td>Rose Bond</td>
+<td>Daniel Lopez</td>
+<td>vleon@example.net</td>
+<td>146</td>
+<td>5</td>
+<td>11.35</td>
+<td>16/01/2011</td>
+<td>635 Saunders Creek Suite 967</td>
+<td>Port Catherine</td>
+<td>32764659</td>
+<td>Architectural technologist</td>
+</tr>
+<tr>
+<th>9999</th>
+<td>Jeffrey Johnson</td>
+<td>Yolanda Mcgrath</td>
+<td>mchen@example.net</td>
+<td>193</td>
+<td>2</td>
+<td>39.04</td>
+<td>25/07/2021</td>
+<td>783 Owens Way</td>
+<td>Lake Ashleyborough</td>
+<td>52015342</td>
+<td>Designer, textile</td>
+</tr>
 </tbody>
 </table>
+<p>10000 rows × 11 columns</p>
 </div>
 </div>
 </div>
@@ -7991,7 +8157,7 @@ Carmen Nixon | Todd Anderson</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">load_data</span><span class="p">(</span><span class="s1">'invoices.csv'</span><span class="p">)</span>
@@ -8089,7 +8255,7 @@ revenue  0.660933  0.675678  1.000000
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8364,10 +8530,10 @@ revenue  0.660933  0.675678  1.000000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">indicator_top_group</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">indicator_top_group</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Compute top N group by total revenue.</span>
 
@@ -8412,7 +8578,7 @@ revenue  0.660933  0.675678  1.000000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">indicator_top_group</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
@@ -8426,7 +8592,7 @@ revenue  0.660933  0.675678  1.000000
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8520,6 +8686,24 @@ revenue  0.660933  0.675678  1.000000
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=155d9f0e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Interpretation-of-Indicator-1:-Top-Cities-by-Revenue"><strong>Interpretation of Indicator 1: Top Cities by Revenue</strong><a class="anchor-link" href="#Interpretation-of-Indicator-1:-Top-Cities-by-Revenue">¶</a></h4><p>Looking at our results, we can see that <strong>Lake James</strong> is the top-performing city with a total revenue of <strong>$4,417.17</strong> from 12 transactions. That's way higher than the second city, Port Kimberly, which only has $3,144.10.</p>
+<p><strong>What we noticed:</strong></p>
+<ul>
+<li>The top 10 cities are just a tiny part of all the cities in our dataset, but they bring in a lot of money</li>
+<li>Interestingly, having more transactions doesn't always mean more revenue. For example, Jamesstad is ranked 8th but only has 5 transactions - so people there must be buying expensive stuff</li>
+<li>If this was a real business, these cities would be the ones we'd want to focus our marketing on</li>
+</ul>
+<p>Basically, this kind of analysis helps us figure out where the money is coming from so we can make smarter decisions about where to invest resources.</p>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e9330e17">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8546,10 +8730,10 @@ where $\mu$ is the mean of $x$ and $\sigma$ is the standard deviation of $x$.</p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">normalize_city_revenue</span><span class="p">(</span><span class="n">city_rev</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">'min-max'</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">normalize_city_revenue</span><span class="p">(</span><span class="n">city_rev</span><span class="p">,</span> <span class="n">method</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">'min-max'</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Normalize total_revenue column using specified method.</span>
 <span class="sd">    </span>
@@ -8605,10 +8789,10 @@ where $\mu$ is the mean of $x$ and $\sigma$ is the standard deviation of $x$.</p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">discretize_city_revenue</span><span class="p">(</span><span class="n">city_rev</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">q</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">discretize_city_revenue</span><span class="p">(</span><span class="n">city_rev</span><span class="p">,</span> <span class="n">q</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Discretize city revenue into q quantile-based categories.</span>
 
@@ -8649,10 +8833,10 @@ where $\mu$ is the mean of $x$ and $\sigma$ is the standard deviation of $x$.</p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">customer_segmentation</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">customer_segmentation</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    - Applies MinMax normalization and K-Means clustering for segmentation.</span>
 <span class="sd">    - Segments customers into Low, Medium, and High value groups based on spending patterns.</span>
@@ -8755,7 +8939,7 @@ where $\mu$ is the mean of $x$ and $\sigma$ is the standard deviation of $x$.</p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">customer_segmentation</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -8796,7 +8980,7 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9041,6 +9225,25 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=84177b98">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Interpretation-of-Indicator-2:-Customer-Segmentation-Analysis"><strong>Interpretation of Indicator 2: Customer Segmentation Analysis</strong><a class="anchor-link" href="#Interpretation-of-Indicator-2:-Customer-Segmentation-Analysis">¶</a></h4><p>For this indicator, we used <strong>MinMax normalization</strong> combined with <strong>K-Means clustering (k=3)</strong> to split our customers into groups based on how much they spend.</p>
+<p>The algorithm found three groups:</p>
+<ul>
+<li><strong>Low Value</strong> ($5.07 - $224.82): These are probably occasional buyers or people who just made one small purchase</li>
+<li><strong>Medium Value</strong> ($224.88 - $491.25): Regular customers who buy stuff from time to time</li>
+<li><strong>High Value</strong> ($491.50 - $898.92): Our VIP customers - these are the ones we really want to keep happy</li>
+</ul>
+<p><strong>Why did we use K-Means?</strong> it's a pretty simple algorithm that works great when you want to group things based on numbers. It basically puts customers together if they have similar spending habits. We picked 3 clusters because it made sense to have low/medium/high categories.</p>
+<p><strong>How could a business use this?</strong> They could create different marketing campaigns for each group. Like, maybe send discount codes to Low Value customers to get them to buy more, or give special perks to High Value customers so they don't leave.</p>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=74b03b98">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9056,10 +9259,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">temporal_prediction</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">time</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s2">"year"</span><span class="p">,</span><span class="n">periods</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">):</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">temporal_prediction</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">time</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s2">"year"</span><span class="p">,</span><span class="n">periods</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Use Prophet model to make a temporal prediction of the revenue.</span>
 
@@ -9148,10 +9351,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">display_temporal_prediction</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span><span class="n">prediction</span><span class="p">,</span><span class="n">options</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"prophet"</span><span class="p">):</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">display_temporal_prediction</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">prediction</span><span class="p">,</span> <span class="n">options</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"prophet"</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Create a visualization of the a dataset with temporal prediction </span>
 <span class="sd">    either with the dataset or with the prediction model.</span>
@@ -9194,6 +9397,69 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=22547544">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">data_year</span><span class="p">,</span> <span class="n">model_year</span><span class="p">,</span> <span class="n">pred_year</span> <span class="o">=</span> <span class="n">temporal_prediction</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">time</span><span class="o">=</span><span class="s2">"year"</span><span class="p">,</span> <span class="n">periods</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">display_temporal_prediction</span><span class="p">(</span><span class="n">data_year</span><span class="p">,</span> <span class="n">model_year</span><span class="p">,</span> <span class="n">pred_year</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>16:03:14 - cmdstanpy - INFO - Chain [1] start processing
+16:03:15 - cmdstanpy - INFO - Chain [1] done processing
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ce342ffe">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Interpretation-of-Indicator-3:-Revenue-Forecasting-with-Prophet"><strong>Interpretation of Indicator 3: Revenue Forecasting with Prophet</strong><a class="anchor-link" href="#Interpretation-of-Indicator-3:-Revenue-Forecasting-with-Prophet">¶</a></h4><p>Here we used <strong>Facebook Prophet</strong> to predict future revenue based on past data. We chose Prophet because it's really good at handling messy real-world data, it doesn't bug if there are missing values, and it can pick up on patterns like seasonality.</p>
+<p><strong>What the different forecasts show us:</strong></p>
+<ul>
+<li><strong>Yearly forecast:</strong> This gives us the big picture, how revenue has changed over the decades and where it might go in the next 10 years</li>
+<li><strong>Monthly forecast:</strong> More detailed view that could help with things like planning inventory for busy months</li>
+<li><strong>Daily forecast:</strong> Super granular predictions for short-term planning</li>
+</ul>
+<p><strong>How to read the graph:</strong></p>
+<ul>
+<li>The black dots are the actual data points we have</li>
+<li>The blue line is what the model thinks the trend looks like</li>
+<li>The light blue shaded area is the uncertainty, basically the model saying "I'm pretty sure it will be somewhere in this range"</li>
+</ul>
+<p><strong>What we can see on this graph:</strong></p>
+<ul>
+<li>There's a slight downward trend from 1970 to around 2020, revenue goes from ~55k to ~45k per year</li>
+<li>The model predicts a small recovery after 2020, going back up towards 50k</li>
+<li>The uncertainty (shaded area) gets wider as we go further into the future, which makes sense because predictions become less reliable over time</li>
+<li>There's one weird outlier around 2022 with super low revenue (that dot near 0), probably just noise in the synthetic data</li>
+</ul>
+<p><strong>One thing to keep in mind:</strong> Since our dataset is synthetic and the dates are kind of random, we don't really see the seasonal patterns we can normally expect in real sales data (like more sales during holidays). But the technique would definitely catch those patterns with real data.</p>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2835a894">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -9221,10 +9487,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">analyze_geographic_distribution</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">analyze_geographic_distribution</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Analyzes spatial distribution of transactions across cities.</span>
 <span class="sd">    Calculates revenue metrics and transaction patterns by location.</span>
@@ -9281,10 +9547,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">spatial_clustering</span><span class="p">(</span><span class="n">city_stats</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">n_clusters</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">spatial_clustering</span><span class="p">(</span><span class="n">city_stats</span><span class="p">,</span> <span class="n">n_clusters</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span> <span class="n">show</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Applies K-Means clustering to group cities by revenue patterns.</span>
 <span class="sd">    Uses normalized features: total revenue, transaction count, and</span>
@@ -9325,9 +9591,270 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
     <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Cluster Characteristics:"</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">city_stats</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'cluster_label'</span><span class="p">)[[</span><span class="s1">'total_revenue'</span><span class="p">,</span> <span class="s1">'transaction_count'</span><span class="p">]]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
 
+    <span class="c1"># Display the clustering visualization</span>
+    <span class="k">if</span> <span class="n">show</span><span class="p">:</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span>
+            <span class="n">city_stats</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3000</span><span class="p">),</span>
+            <span class="n">x</span><span class="o">=</span><span class="s1">'transaction_count'</span><span class="p">,</span>
+            <span class="n">y</span><span class="o">=</span><span class="s1">'total_revenue'</span><span class="p">,</span>
+            <span class="n">color</span><span class="o">=</span><span class="s1">'cluster_label'</span><span class="p">,</span>
+            <span class="n">size</span><span class="o">=</span><span class="s1">'revenue_per_transaction'</span><span class="p">,</span>
+            <span class="n">hover_data</span><span class="o">=</span><span class="p">[</span><span class="s1">'city'</span><span class="p">],</span>
+            <span class="n">labels</span><span class="o">=</span><span class="p">{</span>
+                <span class="s1">'transaction_count'</span><span class="p">:</span> <span class="s1">'Number of Transactions'</span><span class="p">,</span>
+                <span class="s1">'total_revenue'</span><span class="p">:</span> <span class="s1">'Total Revenue ($)'</span><span class="p">,</span>
+                <span class="s1">'cluster_label'</span><span class="p">:</span> <span class="s1">'Activity Level'</span>
+            <span class="p">},</span>
+            <span class="n">color_discrete_map</span><span class="o">=</span><span class="p">{</span>
+                <span class="s1">'Low Activity'</span><span class="p">:</span> <span class="s1">'red'</span><span class="p">,</span>
+                <span class="s1">'Medium-Low Activity'</span><span class="p">:</span> <span class="s1">'orange'</span><span class="p">,</span>
+                <span class="s1">'Medium-High Activity'</span><span class="p">:</span> <span class="s1">'blue'</span><span class="p">,</span>
+                <span class="s1">'High Activity'</span><span class="p">:</span> <span class="s1">'green'</span>
+            <span class="p">},</span>
+            <span class="n">title</span><span class="o">=</span><span class="s1">'City Clustering by Revenue and Activity'</span>
+        <span class="p">)</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
     <span class="k">return</span> <span class="n">city_stats</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1f30e73c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Testing spatial clustering on our dataset</span>
+<span class="n">city_stats_test</span> <span class="o">=</span> <span class="n">analyze_geographic_distribution</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+<span class="n">spatial_clustering</span><span class="p">(</span><span class="n">city_stats_test</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Cluster Distribution:
+cluster_label
+Low Activity            3809
+Medium-Low Activity     2377
+Medium-High Activity    1182
+High Activity            405
+Name: count, dtype: int64
+
+Cluster Characteristics:
+                      total_revenue  transaction_count
+cluster_label                                         
+High Activity           1086.379383           3.832099
+Low Activity             126.251166           1.134418
+Medium-High Activity     669.299958           1.079526
+Medium-Low Activity      397.510934           1.199411
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>city</th>
+<th>total_revenue</th>
+<th>avg_revenue</th>
+<th>std_revenue</th>
+<th>total_quantity</th>
+<th>transaction_count</th>
+<th>revenue_per_transaction</th>
+<th>cluster</th>
+<th>cluster_label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>2864</th>
+<td>Lake James</td>
+<td>4417.17</td>
+<td>368.097500</td>
+<td>229.815763</td>
+<td>65</td>
+<td>12</td>
+<td>368.097500</td>
+<td>3</td>
+<td>High Activity</td>
+</tr>
+<tr>
+<th>5395</th>
+<td>Port Kimberly</td>
+<td>3144.10</td>
+<td>524.016667</td>
+<td>319.031992</td>
+<td>38</td>
+<td>6</td>
+<td>524.016667</td>
+<td>3</td>
+<td>High Activity</td>
+</tr>
+<tr>
+<th>4741</th>
+<td>North Michael</td>
+<td>2902.27</td>
+<td>362.783750</td>
+<td>275.995150</td>
+<td>50</td>
+<td>8</td>
+<td>362.783750</td>
+<td>3</td>
+<td>High Activity</td>
+</tr>
+<tr>
+<th>6105</th>
+<td>Smithmouth</td>
+<td>2644.53</td>
+<td>330.566250</td>
+<td>275.399019</td>
+<td>41</td>
+<td>8</td>
+<td>330.566250</td>
+<td>3</td>
+<td>High Activity</td>
+</tr>
+<tr>
+<th>6351</th>
+<td>South Jennifer</td>
+<td>2570.33</td>
+<td>285.592222</td>
+<td>187.555647</td>
+<td>47</td>
+<td>9</td>
+<td>285.592222</td>
+<td>3</td>
+<td>High Activity</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>2387</th>
+<td>Johnstonchester</td>
+<td>5.44</td>
+<td>5.440000</td>
+<td>NaN</td>
+<td>1</td>
+<td>1</td>
+<td>5.440000</td>
+<td>1</td>
+<td>Low Activity</td>
+</tr>
+<tr>
+<th>6577</th>
+<td>South Sandraberg</td>
+<td>5.34</td>
+<td>5.340000</td>
+<td>NaN</td>
+<td>1</td>
+<td>1</td>
+<td>5.340000</td>
+<td>1</td>
+<td>Low Activity</td>
+</tr>
+<tr>
+<th>544</th>
+<td>Cameronborough</td>
+<td>5.11</td>
+<td>5.110000</td>
+<td>NaN</td>
+<td>1</td>
+<td>1</td>
+<td>5.110000</td>
+<td>1</td>
+<td>Low Activity</td>
+</tr>
+<tr>
+<th>6882</th>
+<td>Torresfurt</td>
+<td>5.08</td>
+<td>5.080000</td>
+<td>NaN</td>
+<td>1</td>
+<td>1</td>
+<td>5.080000</td>
+<td>1</td>
+<td>Low Activity</td>
+</tr>
+<tr>
+<th>1303</th>
+<td>East Josephtown</td>
+<td>5.07</td>
+<td>5.070000</td>
+<td>NaN</td>
+<td>1</td>
+<td>1</td>
+<td>5.070000</td>
+<td>1</td>
+<td>Low Activity</td>
+</tr>
+</tbody>
+</table>
+<p>7773 rows × 9 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0c7214eb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Interpretation-of-Indicator-4:-Geographic-Clustering"><strong>Interpretation of Indicator 4: Geographic Clustering</strong><a class="anchor-link" href="#Interpretation-of-Indicator-4:-Geographic-Clustering">¶</a></h4><p>We used <strong>K-Means clustering (k=4)</strong> to group cities based on their revenue and transaction patterns. The features we used are: total revenue, number of transactions, and revenue per transaction.</p>
+<p><strong>What we observe:</strong></p>
+<ul>
+<li><strong>High Activity (green):</strong> Cities like Lake James (12 transactions, $4417 revenue) and Port Kimberly (6 transactions, $3144). These are our best markets.</li>
+<li><strong>Medium-High Activity (blue):</strong> Cities with 2-4 transactions and around $1500-2000 revenue. Solid performers.</li>
+<li><strong>Medium-Low Activity (orange):</strong> Similar transaction count but lower revenue, around $1000-1500.</li>
+<li><strong>Low Activity (red):</strong> Cities with only 1 transaction and very low revenue (~$5). Most cities fall into this category since the data is synthetic and spread across many fictional cities.</li>
+</ul>
+<p><strong>Why this is useful:</strong> Instead of just ranking cities by revenue, clustering shows us the relationship between how often people buy and how much they spend. A city with few transactions but high revenue per transaction tells a different story than one with many small purchases.</p>
+<p>The bubble size represents revenue per transaction, so bigger bubbles = higher average order value.</p>
 </div>
 </div>
 </div>
@@ -9338,7 +9865,7 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Bonus</strong></p>
+<h4 id="Bonus"><strong>Bonus</strong><a class="anchor-link" href="#Bonus">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9347,10 +9874,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">generate_fake_extra_dataset</span><span class="p">(</span><span class="n">n_rows</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">500</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">generate_fake_extra_dataset</span><span class="p">(</span><span class="n">n_rows</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">500</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    We created this function to simulate a rich external dataset.</span>
 <span class="sd">    It generates invoices for multiple space colonies with different spending habits</span>
@@ -9372,8 +9899,6 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
     
     <span class="n">chosen_bases</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">base_locations</span><span class="p">,</span> <span class="n">n_rows</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">weights</span><span class="p">)</span>
     
-    <span class="c1"># CRITICAL FIX: We append a random number (1-100) to create ~100 distinct cities</span>
-    <span class="c1"># instead of just 4. This aligns the transaction volume with Earth cities.</span>
     <span class="n">cities</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">base</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">101</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span> <span class="k">for</span> <span class="n">base</span> <span class="ow">in</span> <span class="n">chosen_bases</span><span class="p">]</span>
     
     <span class="c1"># Revenue logic remains the same (distinct profiles)</span>
@@ -9415,10 +9940,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">fusion_dataset</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">df_extra</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">fusion_dataset</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">df_extra</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">'''</span>
 <span class="sd">    Merges the main dataset with an external dataset.</span>
 
@@ -9439,14 +9964,9 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <span class="sd">    -------</span>
 <span class="sd">    - pd.DataFrame, the combined and cleaned dataset</span>
 <span class="sd">    '''</span>
-    <span class="n">df_base</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>         <span class="c1"># To make sure to not modify the base dataset</span>
+    <span class="n">df_base</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span> <span class="c1"># To make sure to not modify the base dataset</span>
     <span class="n">df_base</span><span class="p">[</span><span class="s1">'country'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'Earth'</span> 
     
-    <span class="c1"># --- CORRECTION: I removed the date filter here ---</span>
-    <span class="c1"># We want to keep ALL historical data from Earth, plus the new Space data</span>
-    <span class="c1"># --------------------------------------------------</span>
-
-    <span class="c1"># --- FIX FOR DASHBOARD COMPATIBILITY ---</span>
     <span class="c1"># We rename columns to match our main dataset schema</span>
     <span class="n">df_extra</span> <span class="o">=</span> <span class="n">df_extra</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
         <span class="s1">'issuedDate'</span><span class="p">:</span> <span class="s1">'invoice_date'</span><span class="p">,</span>
@@ -9468,9 +9988,8 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
     <span class="n">df_extra</span><span class="p">[</span><span class="s1">'month'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_extra</span><span class="p">[</span><span class="s1">'invoice_date'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">month</span>
     <span class="n">df_extra</span><span class="p">[</span><span class="s1">'day'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_extra</span><span class="p">[</span><span class="s1">'invoice_date'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">day</span>
     <span class="n">df_extra</span><span class="p">[</span><span class="s1">'dayofweek'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_extra</span><span class="p">[</span><span class="s1">'invoice_date'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">dayofweek</span>
-    <span class="c1"># ---------------------------------------</span>
 
-    <span class="c1"># Drop columns we don't need (as per your original logic)</span>
+    <span class="c1"># Drop columns we don't need</span>
     <span class="n">cols_to_drop</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'total'</span><span class="p">,</span> <span class="s1">'discount'</span><span class="p">,</span> <span class="s1">'tax'</span><span class="p">,</span> <span class="s1">'invoiceStatus'</span><span class="p">,</span> <span class="s1">'dueDate'</span><span class="p">]</span>
     <span class="n">df_extra</span> <span class="o">=</span> <span class="n">df_extra</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">cols_to_drop</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_extra</span><span class="o">.</span><span class="n">columns</span><span class="p">])</span>
     
@@ -9494,7 +10013,15 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3)-Dash-visualization">3) Dash visualization<a class="anchor-link" href="#3)-Dash-visualization">¶</a></h2>
+<h2 id="3)-Dashboard-Visualization">3) Dashboard Visualization<a class="anchor-link" href="#3)-Dashboard-Visualization">¶</a></h2><p>Now we're putting everything together into one interactive with dash. The goal is to have all our indicators in one place so anyone can explore the data easily.</p>
+<p><strong>What's in our dashboard:</strong></p>
+<ol>
+<li>A bar chart showing the top cities by revenue</li>
+<li>A pie chart breaking down customer segments with their value ranges</li>
+<li>An interactive forecast where you can switch between yearly, monthly, and daily predictions</li>
+<li>A scatter plot showing how cities cluster based on their activity</li>
+</ol>
+<p>We added a dropdown menu so users can play around with different time periods and see how the forecasts is changing</p>
 </div>
 </div>
 </div>
@@ -9503,10 +10030,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">create_indicator</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">):</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">create_indicator</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""</span>
 <span class="sd">    Create visualization of some indicator on the dataset.</span>
 
@@ -9649,7 +10176,7 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
                                         <span class="c1">### Indicator 4</span>
 
     <span class="c1"># Creating the indicator</span>
-    <span class="n">city_clusters</span> <span class="o">=</span> <span class="n">spatial_clustering</span><span class="p">(</span><span class="n">analyze_geographic_distribution</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
+    <span class="n">city_clusters</span> <span class="o">=</span> <span class="n">spatial_clustering</span><span class="p">(</span><span class="n">analyze_geographic_distribution</span><span class="p">(</span><span class="n">df</span><span class="p">),</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
     
     <span class="c1"># Creating the vizualization</span>
     <span class="n">fig_spatial_clustering</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span>
@@ -9694,22 +10221,15 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">create_dashboard</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">df_augmented</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dash</span><span class="p">:</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">create_dashboard</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">"""Create a Dash dashboard to visualize key business indicators from invoice data."""</span>
     
     <span class="c1"># Generate visualizations</span>
     <span class="p">(</span><span class="n">fig_top_cities_revenue</span><span class="p">,</span> <span class="n">fig_customer_segmentation</span><span class="p">,</span> <span class="n">figure_pred_year</span><span class="p">,</span>
      <span class="n">figure_pred_month</span><span class="p">,</span> <span class="n">figure_pred_day</span><span class="p">,</span> <span class="n">fig_spatial_clustering</span><span class="p">)</span> <span class="o">=</span> <span class="n">create_indicator</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-
-    <span class="c1"># Display static figures for the HTML report</span>
-    <span class="n">fig_top_cities_revenue</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-    <span class="n">fig_customer_segmentation</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-    <span class="n">fig_spatial_clustering</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-    <span class="k">if</span> <span class="n">figure_pred_year</span><span class="p">:</span>
-        <span class="n">figure_pred_year</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
     <span class="c1"># Fix Prophet chart layouts</span>
     <span class="k">for</span> <span class="n">fig_list</span> <span class="ow">in</span> <span class="p">[</span><span class="n">figure_pred_year</span><span class="p">,</span> <span class="n">figure_pred_month</span><span class="p">,</span> <span class="n">figure_pred_day</span><span class="p">]:</span>
@@ -9838,7 +10358,7 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 
         <span class="c1"># Footer</span>
         <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
-            <span class="n">html</span><span class="o">.</span><span class="n">P</span><span class="p">(</span><span class="s1">'© 2025 Data Science Team | Built with Python, Dash, Plotly &amp; Prophet'</span><span class="p">,</span>
+            <span class="n">html</span><span class="o">.</span><span class="n">P</span><span class="p">(</span><span class="s1">'2025 SERERO SUBLET WINTER VERVAELE | DIA 6'</span><span class="p">,</span>
                   <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'textAlign'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span> <span class="s1">'color'</span><span class="p">:</span> <span class="n">C</span><span class="p">[</span><span class="s1">'text_light'</span><span class="p">],</span> <span class="s1">'fontSize'</span><span class="p">:</span> <span class="s1">'0.85rem'</span><span class="p">,</span> <span class="s1">'margin'</span><span class="p">:</span> <span class="s1">'0'</span><span class="p">})</span>
         <span class="p">],</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'padding'</span><span class="p">:</span> <span class="s1">'20px'</span><span class="p">,</span> <span class="s1">'backgroundColor'</span><span class="p">:</span> <span class="n">C</span><span class="p">[</span><span class="s1">'light'</span><span class="p">],</span> <span class="s1">'borderTop'</span><span class="p">:</span> <span class="sa">f</span><span class="s1">'1px solid </span><span class="si">{</span><span class="n">C</span><span class="p">[</span><span class="s2">"border"</span><span class="p">]</span><span class="si">}</span><span class="s1">'</span><span class="p">})</span>
 
@@ -9871,12 +10391,36 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cb8d7972">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Version-with-Extra-Dataset-(Bonus)">Version with Extra Dataset (Bonus)<a class="anchor-link" href="#Version-with-Extra-Dataset-(Bonus)">¶</a></h2><p>Because the original dataset contains fictional cities (like "Ninaland", "Coxbury", "Andreamouth"...), it was impossible to find a real external dataset to merge with it. We analyzed the data and found that there are <strong>7,773 unique cities for only 10,000 transactions</strong>, which means on average each city has only 1.29 transactions. In fact, <strong>6,370 cities have only 1 transaction</strong>, and only 485 cities have 3 or more.</p>
+<p>So we had to create our own fake external dataset. But here's the tricky part: if we just added a few cities with high revenue (like "Mars Colony" or "Titan Outpost"), they would completely dominate the clustering and make the original data irrelevant. To keep the clustering balanced and meaningful, we generated <strong>500 transactions spread across 269 different space locations</strong> with varied revenue profiles (some rich, some poor), so the new data blends in with the original distribution instead of taking over.</p>
+<p>But still, even with this careful approach, the generated dataset changes our results quite a bit. That's why we decided to show both versions: one with the extra data and one without them, so you can see the difference and understand how adding external data impacts the analysis.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ca19ed44">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Version-with-the-extra-dataset"><strong>Version with the extra dataset</strong><a class="anchor-link" href="#Version-with-the-extra-dataset">¶</a></h4>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=113feb76">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
@@ -9886,19 +10430,14 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
     <span class="n">df</span> <span class="o">=</span> <span class="n">load_data</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
     <span class="n">df</span> <span class="o">=</span> <span class="n">preprocess_data</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">date_column</span><span class="o">=</span><span class="s2">"invoice_date"</span><span class="p">)</span>
     
-    <span class="c1"># Attempt to merge with external data</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="c1"># Generate synthetic external data</span>
-        <span class="n">df_extra</span> <span class="o">=</span> <span class="n">generate_fake_extra_dataset</span><span class="p">(</span><span class="n">n_rows</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
-        
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">df_extra</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
-            <span class="n">df</span> <span class="o">=</span> <span class="n">fusion_dataset</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">df_extra</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">"External dataset merged successfully."</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total rows: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-            
-    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Skipping external data merge: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">df_extra</span> <span class="o">=</span> <span class="n">generate_fake_extra_dataset</span><span class="p">(</span><span class="n">n_rows</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>  
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"External dataset generated successfully."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Main dataset rows: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 
+    <span class="n">df</span> <span class="o">=</span> <span class="n">fusion_dataset</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">df_extra</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Datasets merged successfully."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total rows after merge: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    
     <span class="c1"># Launch exploration and dashboard</span>
     <span class="n">explore_data</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
     <span class="n">app</span> <span class="o">=</span> <span class="n">create_dashboard</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> 
@@ -9920,8 +10459,10 @@ Medium Value       224.88  491.25  342.61              1.0           5.86
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Data loaded successfully.
 Generated 500 transactions across 269 distinct space locations.
-External dataset merged successfully.
-Total rows: 10500
+External dataset generated successfully.
+Main dataset rows: 10000
+Datasets merged successfully.
+Total rows after merge: 10500
 Shape (rows, columns): (10500, 14)
 
 Column dtypes:
@@ -10025,15 +10566,170 @@ Medium-Low Activity      672.978984           2.243264
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<iframe allowfullscreen="" frameborder="0" height="650" src="http://127.0.0.1:8050/" width="100%"></iframe>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e3d210f9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Version-without-the-extra-dataset"><strong>Version without the extra dataset</strong><a class="anchor-link" href="#Version-without-the-extra-dataset">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f9ed0f36">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
+    <span class="n">file_path</span> <span class="o">=</span> <span class="s2">"invoices.csv"</span>
+    
+    <span class="c1"># Load and clean main data</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">load_data</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">preprocess_data</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">date_column</span><span class="o">=</span><span class="s2">"invoice_date"</span><span class="p">)</span>
+    
+    <span class="c1"># Launch exploration and dashboard</span>
+    <span class="n">explore_data</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+    <span class="n">app</span> <span class="o">=</span> <span class="n">create_dashboard</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> 
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Data loaded successfully.
+Shape (rows, columns): (10000, 15)
+
+Column dtypes:
+name                    object
+email                   object
+product_id               int64
+qty                      int64
+amount                 float64
+invoice_date    datetime64[ns]
+address                 object
+city                    object
+stock_code               int64
+job                     object
+revenue                float64
+year                     int32
+month                    int32
+day                      int32
+dayofweek                int32
+dtype: object
+
+Missing values per column:
+name            0
+email           0
+product_id      0
+qty             0
+amount          0
+invoice_date    0
+address         0
+city            0
+stock_code      0
+job             0
+revenue         0
+year            0
+month           0
+day             0
+dayofweek       0
+dtype: int64
+
+Basic description of numerical columns:
+         product_id           qty        amount                invoice_date  \
+count  10000.000000  10000.000000  10000.000000                       10000   
+mean     149.746700      5.005900     52.918236  1995-06-11 13:32:18.240000   
+min      100.000000      1.000000      5.010000         1970-01-05 00:00:00   
+25%      125.000000      3.000000     29.137500         1982-08-02 00:00:00   
+50%      150.000000      5.000000     53.485000         1994-12-26 00:00:00   
+75%      175.000000      7.000000     76.520000         2008-03-01 12:00:00   
+max      199.000000      9.000000     99.990000         2022-01-17 00:00:00   
+std       28.728186      2.576767     27.434579                         NaN   
+
+         stock_code       revenue          year         month           day  \
+count  1.000000e+04  10000.000000  10000.000000  10000.000000  10000.000000   
+mean   4.950036e+07    265.687038   1994.941400      6.541900     15.869600   
+min    1.977000e+03      5.070000   1970.000000      1.000000      1.000000   
+25%    2.425234e+07     93.602500   1982.000000      4.000000      8.000000   
+50%    4.931714e+07    205.940000   1994.000000      7.000000     16.000000   
+75%    7.457446e+07    391.672500   2008.000000     10.000000     24.000000   
+max    9.999216e+07    898.920000   2022.000000     12.000000     31.000000   
+std    2.903081e+07    208.084624     14.880414      3.439975      8.867438   
+
+          dayofweek  
+count  10000.000000  
+mean       3.003200  
+min        0.000000  
+25%        1.000000  
+50%        3.000000  
+75%        5.000000  
+max        6.000000  
+std        2.009775  
+
+Correlation matrix (numeric columns):
+              qty    amount   revenue
+qty      1.000000  0.011086  0.660933
+amount   0.011086  1.000000  0.675678
+revenue  0.660933  0.675678  1.000000
+Segment Distribution:
+segment_label
+Low Value       5305
+Medium Value    3085
+High Value      1610
+Name: count, dtype: int64
+
+Segment Revenue Ranges:
+               Count  Min Revenue  Max Revenue  Mean Revenue  Median Revenue
+segment_label                                                               
+High Value      1610       491.50       898.92        640.53          623.20
+Low Value       5305         5.07       224.82        107.20           98.44
+Medium Value    3085       224.88       491.25        342.61          337.12
+
+Segment Characteristics:
+              total_spent                 num_transactions total_quantity
+                      min     max    mean             mean           mean
+segment_label                                                            
+High Value         491.50  898.92  640.53              1.0           7.83
+Low Value            5.07  224.82  107.20              1.0           3.65
+Medium Value       224.88  491.25  342.61              1.0           5.86
+Cluster Distribution:
+cluster_label
+Low Activity            3809
+Medium-Low Activity     2377
+Medium-High Activity    1182
+High Activity            405
+Name: count, dtype: int64
+
+Cluster Characteristics:
+                      total_revenue  transaction_count
+cluster_label                                         
+High Activity           1086.379383           3.832099
+Low Activity             126.251166           1.134418
+Medium-High Activity     669.299958           1.079526
+Medium-Low Activity      397.510934           1.199411
+</pre>
 </div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
